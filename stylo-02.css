@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.cabecalho{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+hr{
+    width: 1350px;
+}
+li{
+    text-transform:none ;
+}
