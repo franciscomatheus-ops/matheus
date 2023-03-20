@@ -1,15 +1,67 @@
 body{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(192, 160, 117, 0.205);
 }
-.cabecalho{
+.caixa{
+    align-items: center;
+    border-color: black;
+    height: 50vh;
+    width: 80vh;
+    margin: 140px;
+    background-color: white;
+    border-radius: 8px;
+}
+p{
+    margin-left: 20px;
+}
+.pt01{
     display: flex;
-    justify-content:space-between;
-    margin-top: 10px;
+    justify-content: space-between;
+    margin: 10px;
+}
+.pt02{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.nome{
+    width: 350px;
+}
+.mes{
+    width: 35px;
+    text-align: center;
+}
+.ano{
+    width: 35px;
+    text-align: center;
+}
+.cartao{
+    width: 300px;
+}
+.cvc{
+    width: 35px;
+    text-align: center;
+}
+button{
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    margin-top: 50px;
+    width: 450px;
+    height: 30px;
+    background-color: rgba(30,144,255);
+    cursor: pointer;
+    box-shadow: 8px 2px 15px ;
+}
+button:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+input{
+    outline: none;
 }
 hr{
-    width: 1350px;
-}
-li{
-    text-transform:none ;
+    box-shadow: 1px 50px 20px ;
 }
